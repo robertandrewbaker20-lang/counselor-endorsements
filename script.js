@@ -1,4 +1,5 @@
 import { endorsements } from "./data/endorsements.js";
+import { products } from "./data/products.js";
 
 const VIDEO_FILES = Array.from({ length: 8 }, (_, i) =>
   `/public/videos/endorsement-${String(i + 1).padStart(2, "0")}.mp4`
@@ -13,6 +14,44 @@ const productInput = document.getElementById("product-input");
 const inputError = document.getElementById("input-error");
 const counselorPhoto = document.getElementById("counselor-photo");
 const photoPlaceholder = document.getElementById("photo-placeholder");
+const productsGrid = document.getElementById("products-grid");
+
+function renderProducts() {
+  productsGrid.innerHTML = products
+    .map(
+      (product) => `
+    <button type="button" class="product-card" data-product="${escapeAttr(product.name)}" aria-label="Select ${escapeAttr(product.name)} for endorsement">
+      <img class="product-card-image" src="${escapeAttr(product.image)}" alt="${escapeAttr(product.name)} — ${escapeAttr(product.tagline)}" loading="lazy">
+      <div class="product-card-body">
+        <p class="product-card-name">${escapeHtml(product.name)}</p>
+        <p class="product-card-tagline">${escapeHtml(product.tagline)}</p>
+      </div>
+    </button>
+  `
+    )
+    .join("");
+
+  productsGrid.querySelectorAll(".product-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      productInput.value = card.dataset.product;
+      clearInputError();
+      productInput.focus();
+    });
+  });
+}
+
+function escapeHtml(text) {
+  const el = document.createElement("span");
+  el.textContent = text;
+  return el.innerHTML;
+}
+
+function escapeAttr(text) {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;");
+}
 
 function pickRandom(items) {
   return items[Math.floor(Math.random() * items.length)];
@@ -113,3 +152,5 @@ productInput.addEventListener("input", () => {
     clearInputError();
   }
 });
+
+renderProducts();

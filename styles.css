@@ -1,3 +1,16 @@
+:root {
+  --scout-green: #215732;
+  --scout-green-dark: #1a4530;
+  --scout-khaki: #e8dcc8;
+  --scout-khaki-light: #f5f0e6;
+  --scout-red: #c41e3a;
+  --scout-gold: #c9a227;
+  --text-dark: #1e2a22;
+  --text-muted: #4a5c52;
+  --white: #ffffff;
+  --shadow: rgba(33, 87, 50, 0.15);
+}
+
 *,
 *::before,
 *::after {
@@ -8,14 +21,14 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: "Trebuchet MS", Verdana, sans-serif;
-  font-weight: 700;
-  color: #1a1a1a;
-  background: linear-gradient(180deg, #ffe600 0%, #fff4a3 40%, #ffe600 100%);
-  line-height: 1.4;
+  font-weight: 400;
+  color: var(--text-dark);
+  background: var(--scout-khaki-light);
+  line-height: 1.5;
 }
 
 .container {
-  max-width: 720px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 1.25rem 1rem 2rem;
 }
@@ -23,37 +36,108 @@ body {
 /* Header */
 .header {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
+  padding: 1.5rem 1rem;
+  background: var(--scout-green);
+  color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px var(--shadow);
 }
 
 .tagline {
   margin: 0 0 0.5rem;
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  color: #e60000;
-  text-shadow: 1px 1px 0 #fff;
-  animation: pulse 1.5s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.75; }
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--scout-khaki);
 }
 
 .header h1 {
   margin: 0;
-  font-size: clamp(1.5rem, 5vw, 2.25rem);
-  color: #e60000;
-  text-shadow:
-    2px 2px 0 #fff,
-    3px 3px 0 #1a1a1a;
-  line-height: 1.15;
+  font-size: clamp(1.5rem, 5vw, 2.1rem);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
 }
 
 .subtitle {
-  margin: 0.5rem 0 0;
-  font-size: clamp(0.9rem, 3vw, 1.1rem);
-  color: #1a1a1a;
+  margin: 0.75rem 0 0;
+  font-size: clamp(0.9rem, 3vw, 1.05rem);
+  font-weight: 400;
+  color: var(--scout-khaki);
+  max-width: 36em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--scout-green);
+  text-align: center;
+}
+
+/* Products gallery */
+.products-section {
+  margin-bottom: 2rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 2px solid var(--scout-green);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px var(--shadow);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  font-family: inherit;
+}
+
+.product-card:hover,
+.product-card:focus-visible {
+  border-color: var(--scout-red);
+  box-shadow: 0 4px 14px var(--shadow);
+  outline: none;
+}
+
+.product-card-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: var(--scout-khaki-light);
+}
+
+.product-card-body {
+  padding: 0.75rem 0.85rem 1rem;
+  flex: 1;
+}
+
+.product-card-name {
+  margin: 0 0 0.25rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--scout-green-dark);
+}
+
+.product-card-tagline {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.35;
 }
 
 /* Counselor photo */
@@ -65,10 +149,10 @@ body {
   position: relative;
   max-width: 320px;
   margin: 0 auto;
-  border: 5px solid #e60000;
+  border: 3px solid var(--scout-green);
   border-radius: 8px;
-  background: #fff;
-  box-shadow: 6px 6px 0 #1a1a1a;
+  background: var(--white);
+  box-shadow: 0 4px 12px var(--shadow);
   overflow: hidden;
 }
 
@@ -87,8 +171,8 @@ body {
   padding: 2.5rem 1rem;
   text-align: center;
   font-size: 0.95rem;
-  color: #666;
-  background: #f5f5f5;
+  color: var(--text-muted);
+  background: var(--scout-khaki-light);
 }
 
 .photo-placeholder.hidden {
@@ -106,36 +190,44 @@ body {
   min-height: 48px;
   padding: 0.85rem 1.75rem;
   font-family: inherit;
-  font-size: clamp(1rem, 3.5vw, 1.25rem);
+  font-size: clamp(1rem, 3.5vw, 1.15rem);
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  border: 4px solid #1a1a1a;
+  letter-spacing: 0.03em;
+  border: none;
   border-radius: 6px;
   cursor: pointer;
-  box-shadow: 4px 4px 0 #1a1a1a;
-  transition: transform 0.1s, box-shadow 0.1s;
+  box-shadow: 0 3px 8px var(--shadow);
+  transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
 }
 
 .btn:hover {
-  transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0 #1a1a1a;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 14px var(--shadow);
 }
 
 .btn:active {
-  transform: translate(4px, 4px);
-  box-shadow: none;
+  transform: translateY(0);
+  box-shadow: 0 2px 6px var(--shadow);
 }
 
 .btn-primary {
-  color: #fff;
-  background: #e60000;
+  color: var(--white);
+  background: var(--scout-red);
+}
+
+.btn-primary:hover {
+  background: #a81832;
 }
 
 .btn-secondary {
-  color: #1a1a1a;
-  background: #ffe600;
+  color: var(--white);
+  background: var(--scout-green);
   white-space: nowrap;
+}
+
+.btn-secondary:hover {
+  background: var(--scout-green-dark);
 }
 
 /* Video & caption */
@@ -146,10 +238,10 @@ body {
 .video-wrapper {
   position: relative;
   margin-bottom: 1rem;
-  border: 5px solid #e60000;
+  border: 3px solid var(--scout-green);
   border-radius: 8px;
-  background: #1a1a1a;
-  box-shadow: 6px 6px 0 #1a1a1a;
+  background: #111;
+  box-shadow: 0 4px 12px var(--shadow);
   overflow: hidden;
 }
 
@@ -168,8 +260,9 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
   font-size: 1rem;
-  color: #ffe600;
-  background: #333;
+  font-weight: 700;
+  color: var(--scout-khaki);
+  background: var(--scout-green-dark);
 }
 
 .video-placeholder.hidden {
@@ -179,13 +272,14 @@ body {
 .caption {
   margin: 0;
   padding: 1rem 1.25rem;
-  font-size: clamp(1rem, 3.5vw, 1.2rem);
+  font-size: clamp(1rem, 3.5vw, 1.15rem);
+  font-weight: 700;
   text-align: center;
-  color: #1a1a1a;
-  background: #fff;
-  border: 4px solid #e60000;
-  border-radius: 6px;
-  box-shadow: 4px 4px 0 #1a1a1a;
+  color: var(--text-dark);
+  background: var(--white);
+  border: 2px solid var(--scout-green);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--shadow);
   min-height: 3rem;
 }
 
@@ -197,9 +291,10 @@ body {
   margin: 0.75rem 0 0;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
-  color: #fff;
-  background: #e60000;
-  border-radius: 4px;
+  font-weight: 700;
+  color: var(--white);
+  background: var(--scout-red);
+  border-radius: 6px;
   text-align: center;
 }
 
@@ -210,10 +305,10 @@ body {
 /* Custom product section */
 .custom-section {
   padding: 1.25rem;
-  background: #fff;
-  border: 4px solid #e60000;
+  background: var(--white);
+  border: 2px solid var(--scout-green);
   border-radius: 8px;
-  box-shadow: 6px 6px 0 #1a1a1a;
+  box-shadow: 0 4px 12px var(--shadow);
   margin-bottom: 2rem;
 }
 
@@ -221,7 +316,8 @@ body {
   display: block;
   margin-bottom: 0.75rem;
   font-size: 1.05rem;
-  color: #e60000;
+  font-weight: 700;
+  color: var(--scout-green);
 }
 
 .custom-row {
@@ -237,14 +333,16 @@ body {
   padding: 0.65rem 1rem;
   font-family: inherit;
   font-size: 1rem;
-  font-weight: 700;
-  border: 3px solid #1a1a1a;
-  border-radius: 4px;
+  font-weight: 400;
+  border: 2px solid var(--scout-green);
+  border-radius: 6px;
+  background: var(--scout-khaki-light);
 }
 
 .product-input:focus {
-  outline: 3px solid #e60000;
+  outline: 3px solid var(--scout-gold);
   outline-offset: 2px;
+  border-color: var(--scout-green-dark);
 }
 
 /* Footer */
@@ -254,10 +352,9 @@ body {
   text-align: center;
   font-size: 0.8rem;
   font-weight: 700;
-  color: #1a1a1a;
-  background: #fff;
-  border: 3px solid #e60000;
-  border-radius: 6px;
+  color: var(--scout-khaki);
+  background: var(--scout-green-dark);
+  border-radius: 8px;
 }
 
 .footer p {
@@ -268,6 +365,10 @@ body {
 @media (max-width: 600px) {
   .container {
     padding: 1rem 0.75rem 1.5rem;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
   }
 
   .btn {
@@ -284,5 +385,11 @@ body {
 
   .endorsement-video {
     max-height: 280px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

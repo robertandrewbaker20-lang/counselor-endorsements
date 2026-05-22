@@ -4,7 +4,7 @@ export const endorsements = [
     hasPlaceholder: true,
   },
   {
-    text: "Pinecones aren't just nature's floss — they're nature's toothpaste!",
+    text: "Pine Cone Fresh isn't just toothpaste — it's a wilderness experience for your molars!",
     hasPlaceholder: false,
   },
   {
