@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counselor's Questionable Endorsements</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <p class="tagline">✨ CALL NOW! ✨ LIMITED TIME OFFER! ✨</p>
+      <h1>Counselor's Questionable Endorsements</h1>
+      <p class="subtitle">The ONLY infomercial your merit badge counselor endorses!</p>
+    </header>
+
+    <section class="counselor-section" aria-label="Counselor photo">
+      <div class="counselor-frame">
+        <img
+          id="counselor-photo"
+          src="/public/counselor.jpg"
+          alt="Merit badge counselor"
+          class="counselor-photo"
+        >
+        <div id="photo-placeholder" class="photo-placeholder hidden" aria-hidden="true">
+          📷 Photo coming soon — add public/counselor.jpg
+        </div>
+      </div>
+    </section>
+
+    <section class="actions-section">
+      <button type="button" id="generate-btn" class="btn btn-primary">
+        Generate New Endorsement!
+      </button>
+    </section>
+
+    <section class="media-section" aria-label="Endorsement video">
+      <div class="video-wrapper">
+        <video
+          id="endorsement-video"
+          class="endorsement-video"
+          controls
+          playsinline
+          preload="metadata"
+        ></video>
+        <div id="video-placeholder" class="video-placeholder hidden">
+          🎬 Video coming soon — add endorsement-01.mp4 through endorsement-08.mp4 to public/videos/
+        </div>
+      </div>
+      <p id="caption" class="caption" aria-live="polite"></p>
+      <p id="input-error" class="input-error hidden" role="alert"></p>
+    </section>
+
+    <section class="custom-section" aria-label="Custom product endorsement">
+      <label for="product-input" class="custom-label">
+        Type a product YOU want endorsed:
+      </label>
+      <div class="custom-row">
+        <input
+          type="text"
+          id="product-input"
+          class="product-input"
+          placeholder="e.g. pinecone-flavored toothpaste"
+          maxlength="120"
+        >
+        <button type="button" id="custom-btn" class="btn btn-secondary">
+          Get Endorsement!
+        </button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>⚠️ All videos are AI-generated for educational purposes — BSA AI Merit Badge Demo. Created with consent.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
