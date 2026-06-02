@@ -19,17 +19,33 @@
       <div id="products-grid" class="products-grid"></div>
     </section>
 
-    <section class="counselor-section" aria-label="Counselor photo">
+    <section class="counselor-section" aria-label="Counselor Andrew">
+      <h2 class="section-heading">Meet Counselor Andrew</h2>
       <div class="counselor-frame">
         <img
           id="counselor-photo"
-          src="/public/counselor.jpg"
-          alt="Merit badge counselor"
+          src="/public/counselor.png"
+          alt="Merit badge counselor Andrew"
           class="counselor-photo"
+          width="320"
+          height="427"
         >
         <div id="photo-placeholder" class="photo-placeholder hidden" aria-hidden="true">
-          📷 Photo coming soon — add public/counselor.jpg
+          Photo unavailable
         </div>
+      </div>
+      <div class="counselor-audio">
+        <p class="counselor-audio-label">Andrew's real voice (recorded with consent)</p>
+        <audio
+          id="counselor-audio"
+          class="counselor-audio-player"
+          controls
+          preload="metadata"
+          src="/public/audio/counselor-voice.wav"
+        >
+          Your browser does not support audio playback.
+        </audio>
+        <p class="counselor-audio-note">Compare this authentic recording to the AI-generated endorsement videos below.</p>
       </div>
     </section>
 
@@ -75,7 +91,7 @@
     </section>
 
     <footer class="footer">
-      <p>⚠️ All videos are AI-generated for educational purposes — BSA AI Merit Badge Demo. Created with consent.</p>
+      <p>⚠️ Endorsement videos are AI-generated; counselor photo and voice recording are authentic. BSA AI Merit Badge Demo — created with consent.</p>
     </footer>
   </div>
 
