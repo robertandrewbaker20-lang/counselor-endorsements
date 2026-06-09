@@ -121,4 +121,19 @@ productInput.addEventListener("input", () => {
   }
 });
 
+function startFakeCountdown() {
+  const countdownEl = document.getElementById("fake-countdown");
+  if (!countdownEl) return;
+
+  let seconds = 599;
+
+  setInterval(() => {
+    seconds = seconds > 0 ? seconds - 1 : 599;
+    const mins = String(Math.floor(seconds / 60)).padStart(2, "0");
+    const secs = String(seconds % 60).padStart(2, "0");
+    countdownEl.textContent = `${mins}:${secs}`;
+  }, 1000);
+}
+
 renderProducts();
+startFakeCountdown();
