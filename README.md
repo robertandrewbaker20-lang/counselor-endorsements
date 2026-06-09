@@ -28,12 +28,19 @@ Vercel serves the static files with zero configuration.
 
 | File | Location | Status |
 |------|----------|--------|
-| Counselor photo (Andrew) | `public/counselor.png` | Included |
-| Counselor voice sample | `public/audio/counselor-voice.wav` | Included |
+| Counselor headshot (Andrew) | `public/andrew-headshot.jpg` | Included |
+| Product voice clips | `public/audio/products/*.m4a` | Included — click a product image to play |
 | Endorsement videos | `public/videos/endorsement-01.mp4` … `endorsement-08.mp4` | Add when ready |
 | Caption text | `data/endorsements.js` | Expand as needed |
 
 Until videos are added, the app shows a "video coming soon" placeholder when playback fails.
+
+## Presentation slides
+
+Visual rebuild tooling for the Scouts AI Merit Badge deck lives in [`slides/`](slides/):
+
+- **`slides/RebuildSlides.gs`** — Google Apps Script to rebuild interior slides with modern layouts and images
+- **`slides/README.md`** — step-by-step instructions for running on Google Slides
 
 ## Consent and educational use
 

@@ -4,49 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrew's Questionable Endorsements</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
   <div class="container">
     <header class="header">
       <p class="tagline">BSA AI Merit Badge · Deepfake Ethics Demo</p>
       <h1>Andrew's Questionable Endorsements</h1>
+      <div class="header-headshot-frame">
+        <img
+          id="counselor-photo"
+          src="/public/andrew-headshot.jpg?v=5"
+          alt="Merit badge counselor Andrew"
+          class="header-headshot"
+          width="480"
+          height="358"
+        >
+        <div id="photo-placeholder" class="photo-placeholder hidden" aria-hidden="true">
+          Photo unavailable
+        </div>
+      </div>
       <p class="subtitle">Merit badge counselor Andrew enthusiastically endorses products you should never buy.</p>
     </header>
 
     <section class="products-section" aria-label="Featured fake products">
       <h2 class="section-heading">Featured Products</h2>
       <div id="products-grid" class="products-grid"></div>
-    </section>
-
-    <section class="counselor-section" aria-label="Counselor Andrew">
-      <h2 class="section-heading">Meet Counselor Andrew</h2>
-      <div class="counselor-frame">
-        <img
-          id="counselor-photo"
-          src="/public/counselor.png"
-          alt="Merit badge counselor Andrew"
-          class="counselor-photo"
-          width="320"
-          height="427"
-        >
-        <div id="photo-placeholder" class="photo-placeholder hidden" aria-hidden="true">
-          Photo unavailable
-        </div>
-      </div>
-      <div class="counselor-audio">
-        <p class="counselor-audio-label">Andrew's real voice (recorded with consent)</p>
-        <audio
-          id="counselor-audio"
-          class="counselor-audio-player"
-          controls
-          preload="metadata"
-          src="/public/audio/counselor-voice.wav"
-        >
-          Your browser does not support audio playback.
-        </audio>
-        <p class="counselor-audio-note">Compare this authentic recording to the AI-generated endorsement videos below.</p>
-      </div>
     </section>
 
     <section class="actions-section">
@@ -95,6 +78,6 @@
     </footer>
   </div>
 
-  <script type="module" src="script.js"></script>
+  <script type="module" src="script.js?v=3"></script>
 </body>
 </html>
