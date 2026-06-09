@@ -15,13 +15,14 @@ const inputError = document.getElementById("input-error");
 const counselorPhoto = document.getElementById("counselor-photo");
 const photoPlaceholder = document.getElementById("photo-placeholder");
 const productsGrid = document.getElementById("products-grid");
+const productAudio = new Audio();
 
 function renderProducts() {
   productsGrid.innerHTML = products
     .map(
       (product) => `
     <button type="button" class="product-card" data-product="${escapeAttr(product.name)}" aria-label="Select ${escapeAttr(product.name)} for endorsement">
-      <img class="product-card-image" src="${escapeAttr(product.image)}" alt="${escapeAttr(product.name)} — ${escapeAttr(product.tagline)}" loading="lazy">
+      <img class="product-card-image" src="${escapeAttr(product.image)}" alt="${escapeAttr(product.name)} — ${escapeAttr(product.tagline)}" data-audio="${escapeAttr(product.audio)}" loading="lazy">
       <div class="product-card-body">
         <p class="product-card-name">${escapeHtml(product.name)}</p>
         <p class="product-card-tagline">${escapeHtml(product.tagline)}</p>
@@ -38,6 +39,21 @@ function renderProducts() {
       productInput.focus();
     });
   });
+
+  productsGrid.querySelectorAll(".product-card-image").forEach((image) => {
+    image.addEventListener("click", () => {
+      playProductAudio(image.dataset.audio);
+    });
+  });
+}
+
+function playProductAudio(src) {
+  if (!src) return;
+
+  productAudio.pause();
+  productAudio.currentTime = 0;
+  productAudio.src = src;
+  productAudio.play().catch(() => {});
 }
 
 function escapeHtml(text) {
