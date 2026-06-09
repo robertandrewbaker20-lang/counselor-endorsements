@@ -32,29 +32,6 @@
       <div id="products-grid" class="products-grid"></div>
     </section>
 
-    <section class="actions-section">
-      <button type="button" id="generate-btn" class="btn btn-primary">
-        Generate New Endorsement!
-      </button>
-    </section>
-
-    <section class="media-section" aria-label="Endorsement video">
-      <div class="video-wrapper">
-        <video
-          id="endorsement-video"
-          class="endorsement-video"
-          controls
-          playsinline
-          preload="metadata"
-        ></video>
-        <div id="video-placeholder" class="video-placeholder hidden">
-          🎬 Video coming soon — add endorsement-01.mp4 through endorsement-08.mp4 to public/videos/
-        </div>
-      </div>
-      <p id="caption" class="caption" aria-live="polite"></p>
-      <p id="input-error" class="input-error hidden" role="alert"></p>
-    </section>
-
     <section class="custom-section" aria-label="Custom product endorsement">
       <label for="product-input" class="custom-label">
         Type a product YOU want endorsed:
@@ -71,6 +48,8 @@
           Get Endorsement!
         </button>
       </div>
+      <p id="caption" class="caption" aria-live="polite"></p>
+      <p id="input-error" class="input-error hidden" role="alert"></p>
     </section>
 
     <footer class="footer">
@@ -78,6 +57,6 @@
     </footer>
   </div>
 
-  <script type="module" src="script.js?v=3"></script>
+  <script type="module" src="script.js?v=4"></script>
 </body>
 </html>

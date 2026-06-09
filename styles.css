@@ -182,11 +182,6 @@ body {
 }
 
 /* Buttons */
-.actions-section {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
 .btn {
   display: inline-block;
   min-height: 48px;
@@ -213,15 +208,6 @@ body {
   box-shadow: 0 2px 6px var(--shadow);
 }
 
-.btn-primary {
-  color: var(--white);
-  background: var(--scout-red);
-}
-
-.btn-primary:hover {
-  background: #a81832;
-}
-
 .btn-secondary {
   color: var(--white);
   background: var(--scout-green);
@@ -232,47 +218,9 @@ body {
   background: var(--scout-green-dark);
 }
 
-/* Video & caption */
-.media-section {
-  margin-bottom: 2rem;
-}
-
-.video-wrapper {
-  position: relative;
-  margin-bottom: 1rem;
-  border: 3px solid var(--scout-green);
-  border-radius: 8px;
-  background: #111;
-  box-shadow: 0 4px 12px var(--shadow);
-  overflow: hidden;
-}
-
-.endorsement-video {
-  display: block;
-  width: 100%;
-  max-height: 400px;
-  background: #000;
-}
-
-.endorsement-video.hidden {
-  display: none;
-}
-
-.video-placeholder {
-  padding: 3rem 1.5rem;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--scout-khaki);
-  background: var(--scout-green-dark);
-}
-
-.video-placeholder.hidden {
-  display: none;
-}
-
+/* Caption */
 .caption {
-  margin: 0;
+  margin: 0.75rem 0 0;
   padding: 1rem 1.25rem;
   font-size: clamp(1rem, 3.5vw, 1.15rem);
   font-weight: 700;
@@ -383,10 +331,6 @@ body {
 
   .btn-secondary {
     width: 100%;
-  }
-
-  .endorsement-video {
-    max-height: 280px;
   }
 }
 
