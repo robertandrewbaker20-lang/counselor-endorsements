@@ -1,7 +1,13 @@
 .DS_Store
+.venv/
 .vscode/
 .idea/
 *.swp
 *~
 .env
 .env.*
+
+# Next.js
+node_modules/
+.next/
+out/

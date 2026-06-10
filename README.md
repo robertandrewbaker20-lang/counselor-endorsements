@@ -4,25 +4,29 @@ A static web demo for the BSA AI Merit Badge class. It simulates AI-generated "d
 
 ## Run locally
 
-ES modules require a local HTTP server — opening `index.html` directly via `file://` may block imports.
-
-From the project root:
+Install dependencies and start the Next.js dev server:
 
 ```bash
-python3 -m http.server
+npm install
+npm run dev
 ```
 
-Then open [http://localhost:8000](http://localhost:8000) in your browser.
+Then open:
+
+- [http://localhost:3001](http://localhost:3001) — infomercial homepage (`public/index.html`)
+- [http://localhost:3001/visual-lab](http://localhost:3001/visual-lab) — **Prompt & Print Visual Lab** (Real Education experience)
+
+Uses port **3001** by default (3000 is often taken by other apps). Override with `npm run dev -- -p 3000` if you prefer.
+
+The static infomercial also lives in `public/` for direct asset serving.
 
 ## Deploy to Vercel
 
 1. Push this repo to GitHub (when ready).
 2. Import the project in [Vercel](https://vercel.com).
-3. Framework preset: **Other**
-4. Output directory: `.` (project root)
-5. Build command: leave empty (no build step)
+3. Framework preset: **Next.js** (auto-detected via `vercel.json`)
 
-Vercel serves the static files with zero configuration.
+The infomercial homepage is rewritten to `/index.html`; the Visual Lab is at `/visual-lab`.
 
 ## Assets
 

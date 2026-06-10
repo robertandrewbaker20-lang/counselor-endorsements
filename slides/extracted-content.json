@@ -1,0 +1,1216 @@
+{
+  "slide_count": 16,
+  "theme_colors": [
+    "058DC7",
+    "FFAB40",
+    "ED561B",
+    "E57200",
+    "000000",
+    "2200CC",
+    "64E572",
+    "7474C1",
+    "FFFFFF",
+    "EEFF41",
+    "78909C",
+    "551A8B",
+    "50B432",
+    "BA0C2F",
+    "EEEEEE",
+    "595959",
+    "4285F4",
+    "E0E0E0",
+    "158158",
+    "24CBE5",
+    "041C2C",
+    "F3F3F3",
+    "0097A7",
+    "0072CE",
+    "279989",
+    "212121",
+    "EDEF00"
+  ],
+  "extracted_colors": [
+    "7473C2"
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "layout_name": "BLANK",
+      "shapes": [
+        {
+          "name": "Google Shape;142;p36",
+          "type": "AUTO_SHAPE (1)",
+          "left": 135437,
+          "top": 4591670,
+          "width": 8890800,
+          "height": 460800
+        },
+        {
+          "name": "Google Shape;143;p36",
+          "type": "AUTO_SHAPE (1)",
+          "left": 135425,
+          "top": 128300,
+          "width": 8827200,
+          "height": 4247700
+        },
+        {
+          "name": "Google Shape;144;p36",
+          "type": "PICTURE (13)",
+          "left": 561899,
+          "top": 447473,
+          "width": 1291673,
+          "height": 413336,
+          "is_image": true
+        },
+        {
+          "name": "Google Shape;145;p36",
+          "type": "PICTURE (13)",
+          "left": 4724400,
+          "top": 527407,
+          "width": 3786991,
+          "height": 4247618,
+          "is_image": true
+        },
+        {
+          "name": "Google Shape;146;p36",
+          "type": "TEXT_BOX (17)",
+          "left": 561900,
+          "top": 1699350,
+          "width": 3750300,
+          "height": 1444800,
+          "texts": [
+            "AI Merit Badge"
+          ]
+        },
+        {
+          "name": "Google Shape;147;p36",
+          "type": "TEXT_BOX (17)",
+          "left": 163776,
+          "top": 4615910,
+          "width": 7089900,
+          "height": 523200,
+          "texts": [
+            "THIS DECK IS UNCLASSIFIED & CORPORATE PROPRIETARY.  |  All opinions, and/or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views of any sponsor, partner or member. Information provided by Forge Institute or any of its employees, contractors, or advisors does not constitute expert or technical advice for any particular matter. Due to the complex nature of cyber, individuals or companies should seek advice from their insurer, attorney or managed service provider. Nothing contained herein should be construed as consultative advice. Forge Institute bears no liability arising in connection with the information it provides. Use of Forge Institute information constitutes agreement to the Terms & Conditions & Privacy Policy located at www.forge.institute/terms."
+          ]
+        },
+        {
+          "name": "Google Shape;148;p36",
+          "type": "TEXT_BOX (17)",
+          "left": 7323994,
+          "top": 4615910,
+          "width": 1667100,
+          "height": 553800,
+          "texts": [
+            "This deck is restricted to: TLP:AMBER+STRICT"
+          ]
+        },
+        {
+          "name": "Google Shape;149;p36",
+          "type": "TEXT_BOX (17)",
+          "left": 561836,
+          "top": 3789657,
+          "width": 4418100,
+          "height": 413400,
+          "texts": [
+            "FOREVER ONE STEP AHEAD"
+          ]
+        }
+      ],
+      "all_text": [
+        "AI Merit Badge",
+        "THIS DECK IS UNCLASSIFIED & CORPORATE PROPRIETARY.  |  All opinions, and/or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views of any sponsor, partner or member. Information provided by Forge Institute or any of its employees, contractors, or advisors does not constitute expert or technical advice for any particular matter. Due to the complex nature of cyber, individuals or companies should seek advice from their insurer, attorney or managed service provider. Nothing contained herein should be construed as consultative advice. Forge Institute bears no liability arising in connection with the information it provides. Use of Forge Institute information constitutes agreement to the Terms & Conditions & Privacy Policy located at www.forge.institute/terms.",
+        "This deck is restricted to: TLP:AMBER+STRICT",
+        "FOREVER ONE STEP AHEAD"
+      ],
+      "has_image": true,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 2,
+      "layout_name": "BLANK",
+      "shapes": [
+        {
+          "name": "Google Shape;154;p37",
+          "type": "AUTO_SHAPE (1)",
+          "left": 138220,
+          "top": 131465,
+          "width": 3440700,
+          "height": 4735500
+        },
+        {
+          "name": "Google Shape;155;p37",
+          "type": "TEXT_BOX (17)",
+          "left": 138150,
+          "top": 1109350,
+          "width": 3440700,
+          "height": 3582900,
+          "texts": [
+            "About Forge",
+            "Established2018",
+            "Mission",
+            "Advance critical technology capabilities for national security by strengthening the workforce, advancing innovation and enhancing resiliency through purposeful collaborations across the private and public sectors.",
+            "Visionx"
+          ]
+        },
+        {
+          "name": "Google Shape;156;p37",
+          "type": "PICTURE (13)",
+          "left": 1701594,
+          "top": 570042,
+          "width": 313824,
+          "height": 364633,
+          "is_image": true
+        },
+        {
+          "name": "Google Shape;157;p37",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3735165,
+          "top": 130373,
+          "width": 5252700,
+          "height": 4735500
+        },
+        {
+          "name": "Google Shape;158;p37",
+          "type": "AUTO_SHAPE (1)",
+          "left": 3726045,
+          "top": 130373,
+          "width": 5261700,
+          "height": 4735500
+        },
+        {
+          "name": "Google Shape;159;p37",
+          "type": "TEXT_BOX (17)",
+          "left": 3846775,
+          "top": 1482900,
+          "width": 5029500,
+          "height": 2763900,
+          "texts": [
+            "Core Values",
+            "Professionally Lead with Trust & Integrity",
+            "Be Bold & Take Action",
+            "Forge Relationships & Deliver Results",
+            "Challenge the Status Quo",
+            "Be the Best",
+            "Make A Difference"
+          ]
+        }
+      ],
+      "all_text": [
+        "About Forge",
+        "Established2018",
+        "Mission",
+        "Advance critical technology capabilities for national security by strengthening the workforce, advancing innovation and enhancing resiliency through purposeful collaborations across the private and public sectors.",
+        "Visionx",
+        "Core Values",
+        "Professionally Lead with Trust & Integrity",
+        "Be Bold & Take Action",
+        "Forge Relationships & Deliver Results",
+        "Challenge the Status Quo",
+        "Be the Best",
+        "Make A Difference"
+      ],
+      "has_image": true,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 3,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;164;p38",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;165;p38",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;166;p38",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "Today's Agenda"
+          ]
+        },
+        {
+          "name": "Google Shape;167;p38",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "What We're Doing Today",
+            "Who I am & what Forge does",
+            "What's a deepfake?",
+            "Live demo (warning: it's silly)",
+            "How I built it & Q&A about AI careers",
+            "How YOU can use AI this week"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "Today's Agenda",
+        "What We're Doing Today",
+        "Who I am & what Forge does",
+        "What's a deepfake?",
+        "Live demo (warning: it's silly)",
+        "How I built it & Q&A about AI careers",
+        "How YOU can use AI this week"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 4,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;172;p39",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;173;p39",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;174;p39",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "What Is a Deepfake?"
+          ]
+        },
+        {
+          "name": "Google Shape;175;p39",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "Title",
+            "A video, image, or audio clip generated by AI that shows a real person doing or saying something they never did",
+            "The tech is called generative AI \u2014 it learns from millions of examples, then creates new content",
+            "5 years ago: required experts and powerful computers",
+            "Today: anyone with a phone and $10"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "What Is a Deepfake?",
+        "Title",
+        "A video, image, or audio clip generated by AI that shows a real person doing or saying something they never did",
+        "The tech is called generative AI \u2014 it learns from millions of examples, then creates new content",
+        "5 years ago: required experts and powerful computers",
+        "Today: anyone with a phone and $10"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 5,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;180;p40",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;181;p40",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;182;p40",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "Why This Matters"
+          ]
+        },
+        {
+          "name": "Google Shape;183;p40",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "Deepfakes In The Real World",
+            "Scam calls: \"Grandma, I'm in trouble \u2014 I need money.\" A cloned voice of a real grandchild.",
+            "Fake endorsements: Celebrities \"promoting\" crypto scams they've never heard of.",
+            "Reputation attacks: Students targeted with fake videos shared at school."
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "Why This Matters",
+        "Deepfakes In The Real World",
+        "Scam calls: \"Grandma, I'm in trouble \u2014 I need money.\" A cloned voice of a real grandchild.",
+        "Fake endorsements: Celebrities \"promoting\" crypto scams they've never heard of.",
+        "Reputation attacks: Students targeted with fake videos shared at school."
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 6,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;188;p41",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;189;p41",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;190;p41",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "How It Can Hurt Someone (Requirement 5a)"
+          ]
+        },
+        {
+          "name": "Google Shape;191;p41",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "How A Deepfake Can Affect A Person",
+            "Reputation \u2014 what people believe about you",
+            "Money \u2014 scams and fraud",
+            "Safety \u2014 harassment, bullying, threats",
+            "Trust \u2014 when real evidence stops being trusted",
+            "Feelings \u2014 fear, embarrassment, isolation"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "How It Can Hurt Someone (Requirement 5a)",
+        "How A Deepfake Can Affect A Person",
+        "Reputation \u2014 what people believe about you",
+        "Money \u2014 scams and fraud",
+        "Safety \u2014 harassment, bullying, threats",
+        "Trust \u2014 when real evidence stops being trusted",
+        "Feelings \u2014 fear, embarrassment, isolation"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 7,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;196;p42",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;197;p42",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;198;p42",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "Demo Slide"
+          ]
+        },
+        {
+          "name": "Google Shape;199;p42",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "I made a deepfake of your counselor. With his permission",
+            "Website: counselor-endorsements.vercel.app",
+            "Built in one weekend with $20 per month AI subscription",
+            "WEBSITE Link"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "Demo Slide",
+        "I made a deepfake of your counselor. With his permission",
+        "Website: counselor-endorsements.vercel.app",
+        "Built in one weekend with $20 per month AI subscription",
+        "WEBSITE Link"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 8,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;204;p43",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;205;p43",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;206;p43",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "What To Do If This Happens (Requirement 5b)"
+          ]
+        },
+        {
+          "name": "Google Shape;207;p43",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 3032400,
+          "texts": [
+            "If You're Ever Targeted \u2014 Here's What To Do",
+            "Tell a trusted adult immediately \u2014 parent, scoutmaster, teacher, counselor",
+            "Don't share it or forward it \u2014 even to \"warn\" friends",
+            "Document it \u2014 screenshots, links, dates, usernames",
+            "Report to the platform \u2014 every app has a report button",
+            "For serious cases (threats, sexual content, harassment) \u2014 law enforcement",
+            "It's not your fault if it happens to you."
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "What To Do If This Happens (Requirement 5b)",
+        "If You're Ever Targeted \u2014 Here's What To Do",
+        "Tell a trusted adult immediately \u2014 parent, scoutmaster, teacher, counselor",
+        "Don't share it or forward it \u2014 even to \"warn\" friends",
+        "Document it \u2014 screenshots, links, dates, usernames",
+        "Report to the platform \u2014 every app has a report button",
+        "For serious cases (threats, sexual content, harassment) \u2014 law enforcement",
+        "It's not your fault if it happens to you."
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 9,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;212;p44",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;213;p44",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;214;p44",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "How I Built This (Requirement 8b \u2014 career interview content)"
+          ]
+        },
+        {
+          "name": "Google Shape;215;p44",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "How I Built The Demo",
+            "Got Andrew's photo (and his permission!)",
+            "Wrote scripts \u2014 short, silly product endorsements",
+            "Generated videos with Grok Imagine (xAI)",
+            "Built the website in Cursor (AI coding tool)",
+            "Hosted on Vercel \u2014 free, public URL in 5 minutes"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "How I Built This (Requirement 8b \u2014 career interview content)",
+        "How I Built The Demo",
+        "Got Andrew's photo (and his permission!)",
+        "Wrote scripts \u2014 short, silly product endorsements",
+        "Generated videos with Grok Imagine (xAI)",
+        "Built the website in Cursor (AI coding tool)",
+        "Hosted on Vercel \u2014 free, public URL in 5 minutes"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 10,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;220;p45",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;221;p45",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;222;p45",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "Working In AI"
+          ]
+        },
+        {
+          "name": "Google Shape;223;p45",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "Questions About Working In AI?",
+            "What does an AI professional actually do all day?",
+            "What's the weirdest thing AI has done in front of me?",
+            "What should you study if you want to do this?",
+            "Is AI going to take everyone's jobs?",
+            "What's the coolest project you've worked on?",
+            "Ask me anything."
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "Working In AI",
+        "Questions About Working In AI?",
+        "What does an AI professional actually do all day?",
+        "What's the weirdest thing AI has done in front of me?",
+        "What should you study if you want to do this?",
+        "Is AI going to take everyone's jobs?",
+        "What's the coolest project you've worked on?",
+        "Ask me anything."
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 11,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;228;p46",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;229;p46",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;230;p46",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "AI Is YOUR Tool Too"
+          ]
+        },
+        {
+          "name": "Google Shape;231;p46",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "The Other Side: AI Can Work FOR You",
+            "The same tech that makes deepfakes can also:",
+            "Help you understand hard subjects \u2014 \"Explain photosynthesis like I'm 8\"",
+            "Quiz you for tests \u2014 \"Ask me 5 questions about the Civil War\"",
+            "Make studying visual \u2014 generate diagrams, illustrations, mind maps",
+            "Help with writing \u2014 brainstorm ideas, improve drafts (don't let it write FOR you)",
+            "Free tools to try: ChatGPT, Claude, Gemini, Perplexity"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "AI Is YOUR Tool Too",
+        "The Other Side: AI Can Work FOR You",
+        "The same tech that makes deepfakes can also:",
+        "Help you understand hard subjects \u2014 \"Explain photosynthesis like I'm 8\"",
+        "Quiz you for tests \u2014 \"Ask me 5 questions about the Civil War\"",
+        "Make studying visual \u2014 generate diagrams, illustrations, mind maps",
+        "Help with writing \u2014 brainstorm ideas, improve drafts (don't let it write FOR you)",
+        "Free tools to try: ChatGPT, Claude, Gemini, Perplexity"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 12,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;236;p47",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;237;p47",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;238;p47",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "How To Talk To AI (Requirement 6c)"
+          ]
+        },
+        {
+          "name": "Google Shape;239;p47",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "Prompt Engineering \u2014 How To Get Good Answers",
+            "Bad prompt: \"Tell me about rockets.\"",
+            "Good prompt: \"Explain how a rocket engine works to a 12-year-old. Use a simple analogy, then quiz me on what I learned.\"",
+            "Three rules:",
+            "Be specific about what you want",
+            "Give context about who you are",
+            "Ask follow-up questions \u2014 it's a conversation, not a search engine"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "How To Talk To AI (Requirement 6c)",
+        "Prompt Engineering \u2014 How To Get Good Answers",
+        "Bad prompt: \"Tell me about rockets.\"",
+        "Good prompt: \"Explain how a rocket engine works to a 12-year-old. Use a simple analogy, then quiz me on what I learned.\"",
+        "Three rules:",
+        "Be specific about what you want",
+        "Give context about who you are",
+        "Ask follow-up questions \u2014 it's a conversation, not a search engine"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 13,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;244;p48",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;245;p48",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;246;p48",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "Try This Week"
+          ]
+        },
+        {
+          "name": "Google Shape;247;p48",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 3041400,
+          "texts": [
+            "Your Challenge This Week",
+            "Pick ONE:",
+            "\ud83d\ude80 Curiosity: Ask an AI to explain something you've always wondered about",
+            "\ud83d\udcda Homework: Use AI to help you study for a real test (not do it for you)",
+            "\ud83c\udfa8 Creativity: Ask AI to help you brainstorm a project idea",
+            "Then ask yourself:",
+            "Was the answer correct?",
+            "How would I check?",
+            "What did I learn that I couldn't have found by Googling?",
+            "Bring back one cool thing and one weird thing you noticed."
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "Try This Week",
+        "Your Challenge This Week",
+        "Pick ONE:",
+        "\ud83d\ude80 Curiosity: Ask an AI to explain something you've always wondered about",
+        "\ud83d\udcda Homework: Use AI to help you study for a real test (not do it for you)",
+        "\ud83c\udfa8 Creativity: Ask AI to help you brainstorm a project idea",
+        "Then ask yourself:",
+        "Was the answer correct?",
+        "How would I check?",
+        "What did I learn that I couldn't have found by Googling?",
+        "Bring back one cool thing and one weird thing you noticed."
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 14,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;252;p49",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;253;p49",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;254;p49",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "Website: How a deep fake can work"
+          ]
+        },
+        {
+          "name": "Google Shape;255;p49",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "Title",
+            "Who I am & what Forge does",
+            "What's a deepfake?",
+            "Live demo (warning: it's silly)",
+            "How I built it & Q&A about AI careers",
+            "How YOU can use AI this week"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "Website: How a deep fake can work",
+        "Title",
+        "Who I am & what Forge does",
+        "What's a deepfake?",
+        "Live demo (warning: it's silly)",
+        "How I built it & Q&A about AI careers",
+        "How YOU can use AI this week"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 15,
+      "layout_name": "Forge header",
+      "shapes": [
+        {
+          "name": "Google Shape;260;p50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 123858,
+          "top": 131425,
+          "width": 850500,
+          "height": 215100,
+          "texts": [
+            "INNOVATION"
+          ],
+          "fill_color": "7473C2"
+        },
+        {
+          "name": "Google Shape;261;p50",
+          "type": "TEXT_BOX (17)",
+          "left": 974221,
+          "top": 27096,
+          "width": 2496900,
+          "height": 409800,
+          "texts": [
+            "Atomic Anvil"
+          ]
+        },
+        {
+          "name": "Google Shape;262;p50",
+          "type": "AUTO_SHAPE (1)",
+          "left": 181862,
+          "top": 597794,
+          "width": 8893500,
+          "height": 1145100,
+          "texts": [
+            "Website: How a deep fake can work"
+          ]
+        },
+        {
+          "name": "Google Shape;263;p50",
+          "type": "TEXT_BOX (17)",
+          "left": 181850,
+          "top": 1885025,
+          "width": 8893500,
+          "height": 2644500,
+          "texts": [
+            "Title",
+            "Who I am & what Forge does",
+            "What's a deepfake?",
+            "Live demo (warning: it's silly)",
+            "How I built it & Q&A about AI careers",
+            "How YOU can use AI this week"
+          ]
+        }
+      ],
+      "all_text": [
+        "INNOVATION",
+        "Atomic Anvil",
+        "Website: How a deep fake can work",
+        "Title",
+        "Who I am & what Forge does",
+        "What's a deepfake?",
+        "Live demo (warning: it's silly)",
+        "How I built it & Q&A about AI careers",
+        "How YOU can use AI this week"
+      ],
+      "has_image": false,
+      "background_color": null,
+      "speaker_notes": ""
+    },
+    {
+      "slide_number": 16,
+      "layout_name": "BLANK",
+      "shapes": [
+        {
+          "name": "Google Shape;268;p51",
+          "type": "AUTO_SHAPE (1)",
+          "left": 147237,
+          "top": 130373,
+          "width": 5252700,
+          "height": 4735500
+        },
+        {
+          "name": "Google Shape;269;p51",
+          "type": "AUTO_SHAPE (1)",
+          "left": 147236,
+          "top": 126420,
+          "width": 5261700,
+          "height": 4735500
+        },
+        {
+          "name": "Google Shape;270;p51",
+          "type": "FREEFORM (5)",
+          "left": 147222,
+          "top": 3547525,
+          "width": 4626670,
+          "height": 881322
+        },
+        {
+          "name": "Google Shape;271;p51",
+          "type": "TEXT_BOX (17)",
+          "left": 220849,
+          "top": 3636725,
+          "width": 4351200,
+          "height": 711300,
+          "texts": [
+            "2025 Forge Arkansas Cyber Summit",
+            "17-19 Sept 2025  \u2022 Little Rock, AR",
+            "Register at www.forge.institute/summit"
+          ]
+        },
+        {
+          "name": "Google Shape;272;p51",
+          "type": "AUTO_SHAPE (1)",
+          "left": 5556069,
+          "top": 131465,
+          "width": 3440700,
+          "height": 4735500
+        },
+        {
+          "name": "Google Shape;273;p51",
+          "type": "TEXT_BOX (17)",
+          "left": 5929309,
+          "top": 2571750,
+          "width": 2727000,
+          "height": 2117700,
+          "texts": [
+            "+1 (501) 500-0812",
+            "www.forge.institute"
+          ]
+        },
+        {
+          "name": "Google Shape;274;p51",
+          "type": "PICTURE (13)",
+          "left": 6420137,
+          "top": 1451164,
+          "width": 1865910,
+          "height": 597092,
+          "is_image": true
+        }
+      ],
+      "all_text": [
+        "2025 Forge Arkansas Cyber Summit",
+        "17-19 Sept 2025  \u2022 Little Rock, AR",
+        "Register at www.forge.institute/summit",
+        "+1 (501) 500-0812",
+        "www.forge.institute"
+      ],
+      "has_image": true,
+      "background_color": null,
+      "speaker_notes": ""
+    }
+  ]
+}
