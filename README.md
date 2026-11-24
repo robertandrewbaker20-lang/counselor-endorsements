@@ -72,7 +72,7 @@ _Screenshots coming soon._
 
 <!-- Replace this line with the public URL once you are ready to share it. -->
 
-_Live demo link coming soon._
+Live demo: https://counselor-endorsements.vercel.app
 
 ## What I learned
 
