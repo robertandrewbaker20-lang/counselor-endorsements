@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+.vscode/
+.idea/
+*.swp
+*~
+# Local env and secrets. .env.example is the only env file that belongs in git.
+.env*
+!.env.example
+
+# Next.js
+node_modules/
+.next/
+out/
+.vercel
